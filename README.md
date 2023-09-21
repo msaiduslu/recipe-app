@@ -1,100 +1,64 @@
-# Project - 007 : Recipe App (RP-07)
+![Project Snapshot](screengif.gif)
+
+[👉 click here to view the page](https://msaiduslu.github.io/recipe-app/)
+
+# Project : Recipe App
 
 ## Description
 
 Project aims to create a Recipe App.
 
-## Problem Statement
-
-- We are adding a new project to our portfolios. So you and your colleagues have started to work on the project.
-
 ## Project Skeleton
 
 ```
-007 - Recipe App (folder)
+Recipe App (folder)
 |
-|----readme.md         # Given to the students (Definition of the project)
-SOLUTION
+|----readme.md
 ├── public
 │     └── index.html
 ├── src
 │    ├── components
-│    │       ├── header
-│    │       │     ├── Header.js
-│    │       │     ├── Form.js
-│    │       │     └── style.js
-│    │       └── navbar
-│    │             ├── Navbar.js
-│    │             └── style.js
+│    │       ├── Card.jsx
+│    │       ├── Header.jsx
+│    │       ├── Navbar.jsx
+│    │       ├── GlobalStyles.jsx
+│    │
 │    ├── pages
-│    │       ├── about
-│    │       │     ├── About.js
-│    │       │     └── style.js
-│    │       ├── details
-│    │       │     ├── Details.js
-│    │       │     └── style.js
-│    │       ├── login
-│    │       │     ├── Login.js
-│    │       │     └── style.js
-│    │       └── home
-│    │             ├── Home.js
-│    │             ├── RecipeCard.js
-│    │             └── style.js
+│    │       ├── About.jsx
+│    │       ├── Home.jsx
+│    │       ├── Login.jsx
+│    │       ├── NotFound.jsx
+│    │       ├── RecipeDetail.jsx
+│    │
 │    ├── router
-│    │       ├── AppRouter.js
-│    │       └── PrivateRouter.js
+│    │       └── PrivateRouter.jsx
 │    ├── assets
 │    │       └── [images]
-│    ├── App.js
-│    ├── App.css
+│    ├── App.jsx
 │    ├── index.js
 │    └── index.css
 ├── package.json
 └── yarn.lock
 ```
 
-## Expected Outcome
-
-![Project 007 Snapshot](food-search-app.gif)
-
-## Objective
-
-Build a Recipe App using ReactJS.
-
 ### At the end of the project, following topics are to be covered;
 
-- HTML
+- React Props
 
-- CSS
+- React Hooks
 
-- JS
+- React State Logic
 
-- ReactJS
+- React Router
 
-### At the end of the project, students will be able to;
+- Axios
+
+- Async-Await
+
+- Styled Components
+
+### At the end of the project, i will be able to;
 
 - improve coding skills within HTML & CSS & JS & ReactJS.
 
 - use git commands (push, pull, commit, add etc.) and Github as Version Control System.
-
-## Steps to Solution
-
-- Step 1: Create React App using `yarn create react-app recipe-app`or `npx create-react-app recipe-app`
-
-- Step 2: Signup `https://developer.edamam.com/edamam-docs-recipe-api` and get api key.
-
-- Step 3 : Using api key and `axios` for getting data from `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}&mealType=${meal}`.
-
-- Step 4: You are expected to code your project with **styled component**
-
-- Step 5 : You can get random login background image from `https://picsum.photos/1600/900`
-
-- Step 6: Add project gif to your project and README.md file.
-
-## Notes
-
-- You can add additional functionalities to your app.
-
-- [Assets Folder](./assets/)
-
-**<p align="center">&#9786; Happy Coding &#9997;</p>**
